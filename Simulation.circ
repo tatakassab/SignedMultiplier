@@ -63,8 +63,10 @@
     <a name="appearance" val="logisim_evolution"/>
     <a name="circuit" val="main"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
-    <a name="simulationFrequency" val="1.0"/>
-    <comp lib="0" loc="(210,370)" name="Clock"/>
+    <a name="simulationFrequency" val="16000.0"/>
+    <comp lib="0" loc="(210,370)" name="Clock">
+      <a name="label" val="Clk"/>
+    </comp>
     <comp lib="0" loc="(290,230)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="radix" val="10signed"/>
@@ -109,10 +111,16 @@
     <comp lib="5" loc="(1240,670)" name="7-Segment Display">
       <a name="labelvisible" val="true"/>
     </comp>
-    <comp lib="5" loc="(1290,180)" name="Button"/>
-    <comp lib="5" loc="(1310,320)" name="Button"/>
+    <comp lib="5" loc="(1290,180)" name="Button">
+      <a name="label" val="BTNR"/>
+    </comp>
+    <comp lib="5" loc="(1310,320)" name="Button">
+      <a name="label" val="BTNL"/>
+    </comp>
     <comp lib="5" loc="(1430,670)" name="7-Segment Display"/>
-    <comp lib="5" loc="(220,160)" name="Button"/>
+    <comp lib="5" loc="(220,160)" name="Button">
+      <a name="label" val="Reset"/>
+    </comp>
     <comp lib="5" loc="(880,670)" name="7-Segment Display"/>
     <comp lib="9" loc="(1170,610)" name="BCD_to_7_Segment_decoder"/>
     <comp lib="9" loc="(1360,610)" name="BCD_to_7_Segment_decoder"/>
