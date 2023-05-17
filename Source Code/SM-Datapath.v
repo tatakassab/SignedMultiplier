@@ -14,7 +14,7 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
-module Unsigned_Multiplier(input [7:0] Multiplier, Multiplicand, input load, reset, clk, output reg done, output reg [15:0] resultant);
+module Unsigned_Multiplier_Datapath(input [7:0] Multiplier, Multiplicand, input load, reset, clk, output reg done, output reg [15:0] resultant);
 	reg [15:0] M1;
 	reg [7:0] M2;
 	reg [15:0] acc;

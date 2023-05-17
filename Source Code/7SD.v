@@ -1,21 +1,16 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
+// Company: The American University in Cairo
+// Engineer: Adham El-Asfar, Tarek Kassab, Omar Hesham, Farida Amin
 // 
-// Create Date: 05/14/2023 01:05:29 AM
-// Design Name: 
-// Module Name: 7SD
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
+// Create Date: 05/13/2023 11:14:31 PM
+// Module Name: main
+// Project Name: Signed Multiplier
+// Target Devices: Basys 3 FPGA Boards
+// Description: This module is part of a sequencial 8x8 bits signed multiplier
 // 
-// Dependencies: 
+// Dependencies: The Constraint Files, Rest of the source code
 // 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
