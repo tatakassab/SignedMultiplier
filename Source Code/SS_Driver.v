@@ -34,7 +34,7 @@ always @(*) begin
         0: in1 = BCD0;
         1: in1 = BCD1;
         2: in1 = BCD2;
-        3: in1 = (sign ==1)?4'd10:4'd11;
+        3: in1 = (sign == 1)?4'd10:4'd11;
     endcase
    end
 endmodule

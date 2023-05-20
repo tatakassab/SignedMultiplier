@@ -33,6 +33,7 @@ module Unsigned_Multiplier(input [7:0] Multiplier, Multiplicand, input load, res
 			else if(M2 != 8'b0) begin
 				if(M2[0] == 1'b1) begin
 					acc <= acc + M1;
+				end
 				M1 <= M1 << 1;
 				M2 <= M2 >> 1;
 			end
